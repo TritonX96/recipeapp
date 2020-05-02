@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp">
+
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_centerHorizontal="true"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/choose_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="Select an image"
+                android:layout_below="@+id/recipe_image"/>
+
+
+
+
+                <EditText
+                    android:id="@+id/title_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/choose_image"
+
+                    android:hint="Title" />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/desc_editext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_edittext"
+                    android:hint="Description" />
+
+
+
+
+                <EditText
+                    android:id="@+id/ingredients_editext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desc_editext"
+                    android:hint="Ingredients" />
+
+
+
+
+                <EditText
+                    android:id="@+id/inst_editext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ingredients_editext"
+                    android:hint="Instructions" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_types_array">
+        <item>All</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+        <item>Salad</item>
+    </string-array>
+</resources>
